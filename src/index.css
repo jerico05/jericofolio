@@ -1,0 +1,47 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply font-sans text-gray-800 bg-white antialiased;
+  }
+}
+
+@layer components {
+  .section-container {
+    @apply max-w-7xl mx-auto px-4 sm:px-6 lg:px-8;
+  }
+
+  .section-title {
+    @apply text-sm font-semibold tracking-widest text-primary-600 uppercase mb-2;
+  }
+
+  .section-heading {
+    @apply text-3xl md:text-4xl font-bold text-gray-900;
+  }
+
+  .btn-primary {
+    @apply inline-flex items-center gap-2 px-6 py-3 bg-primary-600 text-white font-semibold rounded-full
+           hover:bg-primary-700 transition-all duration-300 shadow-soft hover:shadow-glow hover:-translate-y-0.5;
+  }
+
+  .btn-outline {
+    @apply inline-flex items-center gap-2 px-6 py-3 border-2 border-gray-300 text-gray-700 font-semibold rounded-full
+           hover:border-primary-600 hover:text-primary-600 transition-all duration-300;
+  }
+
+  .glass-card {
+    @apply bg-white/70 backdrop-blur-xl border border-white/50 rounded-2xl shadow-card;
+  }
+}
+
+@layer utilities {
+  .text-gradient {
+    @apply bg-gradient-to-r from-primary-600 to-primary-400 bg-clip-text text-transparent;
+  }
+}
