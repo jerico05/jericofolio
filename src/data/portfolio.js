@@ -132,11 +132,11 @@ export const tools = [
   { name: 'Flask', icon: '🌶️' },
   { name: 'Java', icon: '☕' },
   { name: 'Spring Boot', icon: '🍃' },
-  { name: 'Next.js', icon: '▲' },
-  { name: 'React Native', icon: '⚛️' },
+  { name: 'React.js', icon: '⚛️' },
+  { name: 'React Native', icon: '📱' },
   { name: 'PostgreSQL', icon: '🐘' },
+  { name: 'MySQL', icon: '🐬' },
   { name: 'Docker', icon: '🐳' },
-  { name: 'Node.js', icon: '🟢' },
   { name: 'Firebase', icon: '🔥' },
 ]
 
@@ -171,7 +171,7 @@ export const processSteps = [
 export const experience = {
   title: 'Stagiaire en développement backend Python',
   company: 'Numerum Dev Center',
-  period: '2025',
+  period: '2026',
   description: [
     "Mise en place d'APIs REST avec Flask pour des applications métiers.",
     'Conception de routes CRUD et intégration avec les bases de données.',
